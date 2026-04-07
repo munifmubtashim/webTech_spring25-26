@@ -1,0 +1,49 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 400px;
+}
+form{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border : rgb(99, 98, 98) solid 2px;
+    padding: 40px 20px 20px ;
+    height: 160px;
+    width: 250px;
+    
+
+
+}
+ p{
+    position: absolute;
+    top: -30px;                 
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 5px 0px ;
+    font-size: 16px;
+    font-weight: bold;
+    width: 210px;
+ }
+  div{
+    margin-bottom: 12px;
+ }
+
+ label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: bold;
+}
+input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid rgb(138, 137, 137); 
+    border-bottom:2px solid rgb(157, 157, 157) ;
+}

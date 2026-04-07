@@ -2,5 +2,14 @@ const price = document.getElementById('uprice');
 const quantity = document.getElementById("qperday");
 const total = document.getElementById("tprice");
 const unit = 1000;
-const days = 30;
+const days = 30; 
 
+
+function calculator(){
+    let q = parseInt(quantity.value);
+    let ctotal = unit * q * days;
+
+
+}
+
+quantity.addEventListener('input',calculator );

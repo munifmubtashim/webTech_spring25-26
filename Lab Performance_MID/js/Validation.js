@@ -15,19 +15,20 @@ function calculator(){
         quantity.value = 0;
     }
 
-    if (isNaN(q)) {
+    else if(isNaN(q)) {
         total.value = "";
         return;
     }
-
-
-    let ctotal = unit * q * days;
-    total.value = ctotal;
-
-
-    if (ctotal > 1000) {
+        let ctotal = unit * q * days;
+        total.value = ctotal;
+     if (ctotal > 1000) {
         alert("Congratulations! You are eligible for a gift coupon");
     }
+
+
+
+
+    
 }
 
 
